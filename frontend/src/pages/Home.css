@@ -1,0 +1,28 @@
+.image {
+    height: 300px;
+    width: 500px;
+}
+
+.view {
+    border: 1px solid white;
+    outline: none;
+    background: transparent;
+    padding: 5px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.view:hover {
+    background-color: white;
+    color: black;
+}
+
+@media only screen and (max-width: 767px) {
+    .element {
+        height: auto;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
